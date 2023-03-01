@@ -7,9 +7,16 @@ int ThirdNumber = Convert.ToInt32(Console.ReadLine());
 int max = FirstNumber;
 int SecondNumber;
 int ThirdNumber;
-if (SecondNumber > max){
+if (SecondNumber > max)
+{
     SecondNumber = max;
 }
-Console.WriteLine($"max = {max}");
 
-// я не смог справиться с ошибкой cs0136 и cs0128
+if (ThirdNumber > max)
+{
+    ThirdNumber = max;
+}
+Console.WriteLine("Наибольшее число = " + max);
+ break;
+
+// я не смог справиться с ошибками cs0139, cs0136 и cs0128
