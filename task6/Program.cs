@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Введите число");
+int Number = Convert.ToInt32(Console.ReadLine());
+if (Number %2 == 1)
+{
+    Console.WriteLine($"Число {Number} - нечётное");
+}
+else
+{
+    Console.WriteLine($"Число {Number} - чётное");
+}
