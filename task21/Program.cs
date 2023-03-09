@@ -8,7 +8,7 @@ Console.Write("Y: ");
 int yPointA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Z: ");
 int zPointA = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"Введите координаты второйточки");
+Console.WriteLine($"Введите координаты второй точки");
 Console.Write("X: ");
 int xPointB = Convert.ToInt32(Console.ReadLine());
 Console.Write("Y: ");
