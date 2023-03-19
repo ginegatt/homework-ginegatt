@@ -17,5 +17,5 @@ void ToDegree(int a, int b)
     {
         result = result * a;
     }
-    Console.WriteLine(result);
+    Console.WriteLine($"Результат = {result}");
 }
